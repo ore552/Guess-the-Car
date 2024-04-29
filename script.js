@@ -68,7 +68,7 @@ btn.addEventListener("click", (e) =>{
             remark.style.color = "white";
             clear();
         }
-        carImg.src = "images/"+cars[indexNumber]+".png";
+        carImg.src = cars[indexNumber]+".png";
     };
 });
 
