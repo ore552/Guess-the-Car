@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: cursive;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+h1{
+    font-size: 2.2rem;
+    margin: 10px;
+    color: whitesmoke;
+}
+
+.qtn{
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.app-content{
+    padding: 1%;
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 3%;
+    background-color: #c3c3c3;
+    box-shadow: 4px 8px 0px 4px #707070;
+    height: 900px;
+}
+
+.input-div{
+    margin: 6% auto;
+}
+
+input{
+    padding: 0.525%;
+    font-size: 25px;
+    border-radius: 5px;
+    border: groove rgb(198, 197, 197);
+    box-shadow: 4px 8px auto 4px aliceblue;
+}
+
+.btn{
+    padding: 0.5%;
+    font-size: 26px;
+    border: none;
+    box-shadow: none;
+    margin: 2%;
+    border-radius: 9%;
+    cursor: pointer;
+    outline: none;
+    background-color: gray;
+}
+
+.car-img{
+    width: 400px;
+    height: 50vh;
+    border-radius: 10px;
+    border:1% solid transparent;
+    margin-top: 5%;
+}
+
+.remark-container{
+    display: flex;
+    justify-content: center;
+}
+
+.result-container{
+    display: flex;
+    justify-content: center;
+}
+
+.remark{
+    background-color: #00ff2f;
+    padding: 2%;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: whitesmoke;
+}
+
+.result{
+    font-size: 20px;
+    margin-top: 10px;
+    color: whitesmoke;
+}
+
+.car-name{
+    font-weight: 900;
+    font-size: 26px;
+}
+
+.hide{
+    display: none;
+}
